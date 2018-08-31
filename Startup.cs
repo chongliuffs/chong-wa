@@ -27,7 +27,7 @@ namespace chong_wa
 
             app.Run(async (context) =>
             {
-                await context.Response.WriteAsync("Hello World!");
+                await context.Response.WriteAsync("<html><body><h1>Hello World !</h1></body></html>");
             });
         }
     }
